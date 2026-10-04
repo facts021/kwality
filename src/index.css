@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-ivory: #FAF7F2;
+    --color-cream: #F4EFE6;
+    --color-cream-card: #FFFFFF;
+    --color-cream-border: #E8DFD3;
+    --color-butter: #F5E3B5;
+    --color-butter-light: #FDF9EE;
+    --color-sage: #2A4B37;
+    --color-sage-light: #EEF4F0;
+    --color-terracotta: #C86348;
+    --color-espresso: #241812;
+    --color-espresso-muted: #64554B;
+  }
+
+  html {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: var(--color-espresso);
+    background-color: var(--color-ivory);
+  }
+
+  h1, h2, h3, .font-serif-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    letter-spacing: -0.015em;
+  }
+}
+
+/* Custom smooth scroll bar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF7F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8CEBE;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B9ABA0;
+}
+
+/* Subtle image zoom transition */
+.img-zoom {
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.group:hover .img-zoom {
+  transform: scale(1.04);
+}
+
+/* Hairline border */
+.border-hairline {
+  border-color: rgba(36, 24, 18, 0.08);
+}

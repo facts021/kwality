@@ -1,0 +1,6 @@
+{
+  "name": "Kwality Cafe & Bakery | Gurugram",
+  "description": "Artisan pure vegetarian cafe and eggless bakery at Eros City Square, Sector 49, Gurugram. Handcrafted custom cakes, pastries, gourmet cafe bites, and specialty brews.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
